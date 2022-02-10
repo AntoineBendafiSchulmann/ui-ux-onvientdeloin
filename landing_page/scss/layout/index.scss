@@ -1,0 +1,79 @@
+.pole {
+    height: 100vh;
+    background-image: url("./img/pole.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    nav {
+        display: flex;
+        height: 10vh;
+        background: $nav_shadow;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            margin: 3rem;
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    .presentation {
+        padding: 2rem 55px;
+        margin: 50px 0 100px 50px;
+        height: 680px;
+        width: 650px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+
+        .head {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                height: 60px;
+                width: 60px;
+            }
+
+            h1 {
+                font-weight: bold italic;
+                color: $org_title;
+            }
+        }
+        
+        .cursus_block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            p {
+                font-size: 24px;
+                padding: 2rem;
+                font-weight: bold;
+                color: $org_title;
+            }
+        }
+
+        .btns {
+            display: flex;
+            justify-content: space-around;
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                width: 250px;
+                background: $btn_brochure;
+                border-radius: 10px;
+
+                p {
+                    color: #fff;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

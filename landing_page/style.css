@@ -1,7 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.pole {
+  height: 100vh;
+  background-image: url("./img/pole.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pole nav {
+  display: flex;
+  height: 10vh;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.4));
+  justify-content: flex-start;
+  align-items: center;
+}
+.pole nav img {
+  margin: 3rem;
+  width: 70px;
+  height: 70px;
+}
+.pole .presentation {
+  padding: 2rem 55px;
+  margin: 50px 0 100px 50px;
+  height: 680px;
+  width: 650px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+.pole .presentation .head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pole .presentation .head img {
+  height: 60px;
+  width: 60px;
+}
+.pole .presentation .head h1 {
+  font-weight: bold italic;
+  color: #ED4502;
+}
+.pole .presentation .cursus_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pole .presentation .cursus_block p {
+  font-size: 24px;
+  padding: 2rem;
+  font-weight: bold;
+  color: #ED4502;
+}
+.pole .presentation .btns {
+  display: flex;
+  justify-content: space-around;
+}
+.pole .presentation .btns .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+  background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+  border-radius: 10px;
+}
+.pole .presentation .btns .btn p {
+  color: #fff;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
