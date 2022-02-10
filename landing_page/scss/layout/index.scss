@@ -1,79 +1,90 @@
-.pole {
-    height: 100vh;
+.main{
     background-image: url("./img/pole.svg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 
-    nav {
-        display: flex;
-        height: 10vh;
-        background: $nav_shadow;
-        justify-content: flex-start;
-        align-items: center;
+    header{
+        width: 100%;
+        height: 70px;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4) 100%);
+        
+        .container{
+            width: 100%;
+            height: 100%;
+            padding: 20px 55px;
 
-        img {
-            margin: 3rem;
-            width: 70px;
-            height: 70px;
+            img{
+                width: 32px;
+            }
         }
     }
 
-    .presentation {
-        padding: 2rem 55px;
-        margin: 50px 0 100px 50px;
-        height: 680px;
-        width: 650px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5px;
+    .pole{
+        .presentation{
+            width: 683px;
+            height: 643px;
+            background: rgba(255, 255, 255, 0.4);
+            padding: 2rem 4rem;
+            margin: 30px 130px;
 
-        .head {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-
-            img {
-                height: 60px;
-                width: 60px;
-            }
-
-            h1 {
-                font-weight: bold italic;
-                color: $org_title;
-            }
-        }
-        
-        .cursus_block {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
-            p {
-                font-size: 24px;
-                padding: 2rem;
-                font-weight: bold;
-                color: $org_title;
-            }
-        }
-
-        .btns {
-            display: flex;
-            justify-content: space-around;
-
-            .btn {
+            .head{
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                height: 50px;
-                width: 250px;
-                background: $btn_brochure;
-                border-radius: 10px;
+                gap: 4.5rem;
+                margin-bottom: 5rem;
 
-                p {
-                    color: #fff;
+                h1{
+                    font-size: 2rem;
+                    color: $org_title;
+                    font-style: italic;
                     font-weight: bold;
+                }
+
+            }
+
+            .cursus_block{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+                margin-bottom: 5rem;
+                
+                p{
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    color: $org_title;
+                }
+
+            }
+
+            .btns{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 4.5rem;
+
+                .btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 250px;
+                    height: 50px;
+                    left: 97px;
+                    top: 686px;
+                    font-style: italic;
+                    font-weight: bold;
+
+                    background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+                    color: #fff;
+                    border-radius: 10px;
                 }
             }
         }
     }
 }
+
