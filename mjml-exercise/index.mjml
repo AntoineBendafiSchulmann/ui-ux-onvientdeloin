@@ -1,0 +1,72 @@
+<mjml>
+<mj-body>
+
+
+
+<mj-section background-url="https://pbs.twimg.com/media/FJJolz5XoAA1P_N?format=jpg&name=4096x4096" background-size="cover" background-repeat="no-repeat">
+    <mj-column width="600px">
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Roboto">IIM Digital School</mj-text>
+        <mj-button background-color="#FFA500" href="#">Inscription</mj-button>
+    </mj-column>
+</mj-section>
+
+
+<mj-raw> 
+
+<!--jsp c quoi mj-raw-->
+
+</mj-raw>
+
+
+<mj-section  background-color="#F5FFFA">
+    <mj-column width="600px">
+
+    <mj-text align="left" font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
+        <mj-text color="#525252">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
+        Sed eget nulla elit. Nulla aliquet mollis faucibus.</mj-text>
+        <mj-button background-color="#FFA500" href="#"> En savoir plus</mj-button>
+    </mj-column>
+</mj-section>
+
+
+<mj-section background-color="white">
+
+    <mj-column>
+        <mj-image width="200px" src="https://pbs.twimg.com/card_img/1489594298588934146/KYDJpvKP?format=jpg&name=small"></mj-image>
+    </mj-column>
+
+    <mj-column>
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">Find amazing places</mj-text>
+        <mj-text color="#525252">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+    </mj-column>
+
+</mj-section>
+
+<mj-section background-color="#fbfbfb">
+
+    <mj-column>
+        <mj-image width="100px" src="https://www.iim.fr/ecole-web/wp-content/uploads/2021/01/iim_classement_dev_web.png"></mj-image>
+    </mj-column>
+    <mj-column>
+        <mj-image width="100px" src="https://www.iim.fr/ecole-web/wp-content/uploads/2021/01/iim_classement_ux_design.png"></mj-image>
+    </mj-column>
+    <mj-column>
+        <mj-image width="100px" src="https://www.iim.fr/ecole-web/wp-content/uploads/2021/01/iim_classement_social_media.png"></mj-image>
+    </mj-column>
+    <mj-column>
+        <mj-image width="100px" src="https://www.iim.fr/ecole-web/wp-content/uploads/2021/01/iim_classement_animation_3d.png"></mj-image>
+    </mj-column>
+    <mj-column>
+        <mj-image width="100px" src="https://www.iim.fr/ecole-web/wp-content/uploads/2021/01/iim_classement_jeux_video.png"></mj-image>
+    </mj-column>
+
+</mj-section>
+
+
+
+
+
+
+
+</mj-body>
+</mjml>
