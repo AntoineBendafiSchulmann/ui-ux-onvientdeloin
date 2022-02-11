@@ -63,7 +63,7 @@
             .btns {
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-end;
                 gap: 4.5rem;
 
                 .btn {
@@ -78,37 +78,14 @@
                     font-weight: bold;
 
                     background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-                    color: #fff;
+                    
                     border-radius: 10px;
+
+                    a{
+                        color: #fff;
+                    }
                 }
             }
-        }
-    }
-}
-
-.form_block {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    h2 {
-        margin: 0 0 2rem 0;
-    }
-
-    .form_part {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1150px;
-        height: 800px;
-        background-color: rgba(201, 201, 201, 0.64);
-
-        form {
-            height: 600px;
-            width: 800px;
-            
         }
     }
 }
