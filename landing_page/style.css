@@ -20,112 +20,97 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-}
-.form_block h2 {
-  margin: 0 0 25px 0;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 42px;
-}
-.form_block h2 span {
-  color: #ED4502;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 42px;
-}
-.form_block .form_part {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1180px;
-  height: 794px;
-  border-radius: 20px;
-  background: rgba(255, 252, 252, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-}
-.form_block .form_part .deco .circle--1 {
-  position: absolute;
-  width: 304px;
-  height: 304px;
-  left: 1150px;
-  top: 850px;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
-  z-index: -1;
-}
-.form_block .form_part .deco .circle--2 {
-  position: absolute;
-  width: 304px;
-  height: 304px;
-  left: 30px;
-  top: 1580px;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
-  z-index: -1;
-}
-.form_block .form_part form {
-  height: 600px;
-  width: 800px;
-}
-.form_block .form_part form .form__groupe--1 {
-  display: flex;
-  justify-content: space-around;
-  gap: 1rem;
-  margin-bottom: 110px;
-}
-.form_block .form_part form .form__groupe--1 .left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 67px;
-}
-.form_block .form_part form .form__groupe--2 {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 60px;
-}
-.form_block .form_part form .form__groupe--2 .left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 67px;
-}
-.form_block .form_part form .form__groupe--2 .right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 67px;
-}
-.form_block .form_part form .input_form {
-  border: none;
-  outline: none;
-  font-style: italic;
-  font-weight: bold;
-  width: 229px;
-  height: 36px;
-  font-size: 24px;
-  font-weight: bold;
-  background: transparent;
-  color: rgba(138, 127, 127, 0.7);
-  border-bottom: 2px solid #000;
-  padding-bottom: 10px 0;
-}
-.form_block .form_part form .btn {
-  position: relative;
-  right: -300px;
-}
-.form_block .form_part form .btn .btn__form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 317px;
-  height: 72px;
-  border: none;
-  color: #fff;
-  background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-  border-radius: 10px;
-}
+  margin-top: 100px; }
+  .form_block h2 {
+    margin: 0 0 25px 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 42px; }
+    .form_block h2 span {
+      color: #ED4502;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 42px; }
+  .form_block .form_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 794px;
+    border-radius: 20px;
+    background: rgba(255, 252, 252, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); }
+    .form_block .form_part .deco .circle--1 {
+      position: absolute;
+      width: 304px;
+      height: 304px;
+      left: 1150px;
+      top: 850px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
+      z-index: -1; }
+    .form_block .form_part .deco .circle--2 {
+      position: absolute;
+      width: 304px;
+      height: 304px;
+      left: 30px;
+      top: 1580px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
+      z-index: -1; }
+    .form_block .form_part form {
+      height: 600px;
+      width: 800px; }
+      .form_block .form_part form .form__groupe--1 {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        margin-bottom: 110px; }
+        .form_block .form_part form .form__groupe--1 .left {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+      .form_block .form_part form .form__groupe--2 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px; }
+        .form_block .form_part form .form__groupe--2 .left {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+        .form_block .form_part form .form__groupe--2 .right {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+      .form_block .form_part form .input_form {
+        border: none;
+        outline: none;
+        font-style: italic;
+        font-weight: bold;
+        width: 229px;
+        height: 36px;
+        font-size: 24px;
+        font-weight: bold;
+        background: transparent;
+        color: rgba(138, 127, 127, 0.7);
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px 0; }
+      .form_block .form_part form .btn {
+        position: relative;
+        right: -300px; }
+        .form_block .form_part form .btn .btn__form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 317px;
+          height: 72px;
+          border: none;
+          color: #fff;
+          background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+          border-radius: 10px; }
 
 .background .top {
   position: absolute;
@@ -326,7 +311,8 @@ li {
   color: #EA7820;
   text-align: center; }
 .cursus h4 {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 4%; }
 .cursus .com {
   display: flex;
   width: 100%;
@@ -335,9 +321,38 @@ li {
     text-align: center; }
     .cursus .com .img1 img {
       margin-top: 15%; }
-  .cursus .com .text1 .stext {
-    display: flex;
-    flex-wrap: wrap; }
+.cursus .web {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around; }
+  .cursus .web .img2 {
+    text-align: center; }
+    .cursus .web .img2 img {
+      margin-top: 15%; }
+.cursus .crea {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around; }
+  .cursus .crea .img3 {
+    text-align: center; }
+    .cursus .crea .img3 img {
+      margin-top: 15%; }
+.cursus .troisd {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around; }
+  .cursus .troisd .img4 {
+    text-align: center; }
+    .cursus .troisd .img4 img {
+      margin-top: 15%; }
+.cursus .jv {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around; }
+  .cursus .jv .img5 {
+    text-align: center; }
+    .cursus .jv .img5 img {
+      margin-top: 15%; }
 .cursus p {
   font-weight: bold; }
 
