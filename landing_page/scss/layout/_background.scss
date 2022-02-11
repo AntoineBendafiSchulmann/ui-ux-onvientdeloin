@@ -1,0 +1,16 @@
+.background{
+    
+    .top{
+        position: absolute;
+        top: 750px;
+        left: 0px;
+        z-index: -1;
+
+
+        img{
+            width: 100vw;
+            height: 1702px;
+            background-size: cover;
+        }
+    }
+}

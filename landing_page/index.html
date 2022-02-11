@@ -33,32 +33,63 @@
                     <p class="cursus">Jeux vidéo</p>
                 </div>
                 <div class="btns">
-                    <div class="btn btn_brochure1">
-                        <p>Voir la brochure</p>
-                    </div>
-                    <div class="btn btn_brochure2">
-                        <p>Inscription JPO</p>
-                    </div>
+                    <span class="btn btn_brochure2">
+                        <a href="#Form">Inscription JPO</a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="form_block">
-        <h2>Pour recevoir la brochure c'est ici !👇</h2>
+    <div class="background">
+        <div class="top">
+            <img src="img/top.png" alt="">
+        </div>
+        <!-- <div class="mid">
+            <img src="img/mid.png" alt="">
+        </div>
+        <div class="bot">
+            <img src="img/bottom.png" alt="">
+        </div>  -->
+    </div>
+
+    <section class="form_block" >
+        <h2>Pour recevoir la <span>brochure</span> c'est ici !👇</h2>
         <div class="form_part">
-            <form action="">
-                <input class="input_form" type="text" placeholder="oui">
-                <input class="input_form" type="text" placeholder="chezpo">
-                <br>
-                <input class="input_form" type="text" placeholder="non">
-                <br>
-                <input class="input_form" type="text" placeholder="woula">
-                <input class="input_form" type="text" placeholder="donatien">
-                <br>
-                <input class="input_form" type="text" placeholder="laheja">
-                <input class="input_form" type="text" placeholder="khalass">
-                <input id="send" class="input_form" type="submit" value="Envoyer ma demande">
+
+            <div class="deco">
+                <div class="circle--1"></div>
+                <div class="circle--2"></div>
+            </div>
+
+            <form action="" method="post" class="form" id="Form">
+                <div class="form__groupe--1">
+                    <div class="left">
+                        <input class="input_form" type="text" placeholder="Cursus Choisie ">
+                        <input class="input_form" type="text" placeholder="Formation ">
+                    </div>
+                    <div class="right">
+                        <input class="input_form" type="text" placeholder="Niveau d’entrée">
+                    </div>
+                    
+                </div>
+                
+                <div class="form__groupe--2">
+                    <div class="left">
+                        <input class="input_form" type="text" placeholder="Nom">
+                        <input class="input_form" type="number" placeholder="Télephone">
+                        <input class="input_form" type="date" placeholder="Date">
+                    </div>
+                    
+                    <div class="right">
+                        <input class="input_form" type="text" placeholder="Prenom">
+                        <input class="input_form" type="text" placeholder="Email">
+                    </div>
+                </div>
+                
+                <div class="btn">
+                    <input id="send" class="btn btn__form" type="submit" value="Envoyer ma demande">
+                </div>
             </form>
         </div>
     </section>
