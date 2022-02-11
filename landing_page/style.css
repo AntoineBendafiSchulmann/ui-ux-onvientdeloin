@@ -5,11 +5,121 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif; }
 
+body {
+  overflow-x: hidden; }
+
 a {
   text-decoration: none; }
 
 li {
   list-style: none; }
+
+.form_block {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; }
+  .form_block h2 {
+    margin: 0 0 25px 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 42px; }
+    .form_block h2 span {
+      color: #ED4502;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 42px; }
+  .form_block .form_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 794px;
+    border-radius: 20px;
+    background-color: rgba(201, 201, 201, 0.64); }
+    .form_block .form_part .deco .circle--1 {
+      position: absolute;
+      width: 304px;
+      height: 304px;
+      left: 1150px;
+      top: 850px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
+      z-index: -1; }
+    .form_block .form_part .deco .circle--2 {
+      position: absolute;
+      width: 304px;
+      height: 304px;
+      left: 30px;
+      top: 1580px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #ED4502 0%, #EA7820 100%);
+      z-index: -1; }
+    .form_block .form_part form {
+      height: 600px;
+      width: 800px; }
+      .form_block .form_part form .form__groupe--1 {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        margin-bottom: 110px; }
+        .form_block .form_part form .form__groupe--1 .left {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+      .form_block .form_part form .form__groupe--2 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px; }
+        .form_block .form_part form .form__groupe--2 .left {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+        .form_block .form_part form .form__groupe--2 .right {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 67px; }
+      .form_block .form_part form .input_form {
+        border: none;
+        outline: none;
+        font-style: italic;
+        font-weight: bold;
+        width: 229px;
+        height: 36px;
+        font-size: 24px;
+        font-weight: bold;
+        background: transparent;
+        color: rgba(138, 127, 127, 0.7);
+        border-bottom: 2px solid #000;
+        padding-bottom: 10px 0; }
+      .form_block .form_part form .btn {
+        position: relative;
+        right: -300px; }
+        .form_block .form_part form .btn .btn__form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 317px;
+          height: 72px;
+          border: none;
+          color: #fff;
+          background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+          border-radius: 10px; }
+
+.background .top {
+  position: absolute;
+  top: 750px;
+  left: 0px;
+  z-index: -1; }
+  .background .top img {
+    width: 100vw;
+    height: 1702px;
+    background-size: cover; }
 
 .main {
   background-image: url("./img/pole.svg");
@@ -59,7 +169,7 @@ li {
     .main .pole .presentation .btns {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       gap: 4.5rem; }
       .main .pole .presentation .btns .btn {
         display: flex;
@@ -72,8 +182,9 @@ li {
         font-style: italic;
         font-weight: bold;
         background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-        color: #fff;
         border-radius: 10px; }
+        .main .pole .presentation .btns .btn a {
+          color: #fff; }
 
 .form_block {
   height: 100vh;
@@ -93,6 +204,101 @@ li {
     .form_block .form_part form {
       height: 600px;
       width: 800px; }
+
+.admission_h2 {
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0; }
+
+.admission_block {
+  padding: 55px 130px;
+  height: 1444px;
+  background-color: rgba(229, 223, 223, 0.6); }
+  .admission_block .admission_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EA7820; }
+  .admission_block .admission_profile {
+    width: 700px; }
+    .admission_block .admission_profile .adm_profile_ttl {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #EA7820; }
+    .admission_block .admission_profile .adm_profile_txt {
+      font-weight: bold; }
+  .admission_block .adm_first_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.5rem 0 3rem 0; }
+    .admission_block .adm_first_line .adm_1 {
+      width: 500px; }
+      .admission_block .adm_first_line .adm_1 .adm_1_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_first_line .adm_1 .adm_1_txt {
+        font-weight: bold; }
+    .admission_block .adm_first_line .adm_2 {
+      width: 500px; }
+      .admission_block .adm_first_line .adm_2 .adm_2_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_first_line .adm_2 .adm_2_txt {
+        font-weight: bold; }
+  .admission_block .adm_second_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0; }
+    .admission_block .adm_second_line .adm_restart {
+      width: 500px; }
+      .admission_block .adm_second_line .adm_restart .adm_restart_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_second_line .adm_restart .adm_restart_txt {
+        font-weight: bold; }
+    .admission_block .adm_second_line .adm_4 {
+      width: 500px; }
+      .admission_block .adm_second_line .adm_4 .adm_4_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_second_line .adm_4 .adm_4_txt {
+        font-weight: bold; }
+  .admission_block .adm_third_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5rem 0; }
+    .admission_block .adm_third_line .adm_cursus {
+      width: 500px; }
+      .admission_block .adm_third_line .adm_cursus .adm_cursus_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_third_line .adm_cursus .adm_cursus_txt {
+        font-weight: bold; }
+    .admission_block .adm_third_line .adm_MBA {
+      width: 500px; }
+      .admission_block .adm_third_line .adm_MBA .adm_MBA_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_third_line .adm_MBA .adm_MBA_txt {
+        font-weight: bold; }
+  .admission_block .adm_Mana {
+    margin: 6.5rem auto;
+    width: 500px; }
+    .admission_block .adm_Mana .adm_Mana_ttl {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #EA7820; }
+    .admission_block .adm_Mana .adm_Mana_txt {
+      font-weight: bold; }
 
 .orange {
   color: #EA7820; }

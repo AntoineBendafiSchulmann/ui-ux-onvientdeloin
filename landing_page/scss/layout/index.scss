@@ -63,7 +63,7 @@
             .btns {
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-end;
                 gap: 4.5rem;
 
                 .btn {
@@ -78,8 +78,12 @@
                     font-weight: bold;
 
                     background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-                    color: #fff;
+                    
                     border-radius: 10px;
+
+                    a{
+                        color: #fff;
+                    }
                 }
             }
         }
@@ -108,10 +112,148 @@
         form {
             height: 600px;
             width: 800px;
-            
+
         }
     }
 }
+
+.admission_h2 {
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.admission_block {
+    padding: 55px 130px;
+    height: 1444px;
+    background-color: rgba(229, 223, 223, 0.6);
+
+    .admission_title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 55px;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #EA7820;
+    }
+
+    .admission_profile {
+        width: 700px;
+
+        .adm_profile_ttl {
+            @include adm_part_ttl;
+        }
+
+        .adm_profile_txt {
+            font-weight: bold;
+        }
+    }
+
+    .adm_first_line {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.5rem 0 3rem 0;
+
+        .adm_1 {
+            width: 500px;
+
+            .adm_1_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_1_txt {
+                font-weight: bold;
+            }
+        }
+
+        .adm_2 {
+            width: 500px;
+
+            .adm_2_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_2_txt {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .adm_second_line {
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem 0;
+
+        .adm_restart {
+            width: 500px;
+
+            .adm_restart_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_restart_txt {
+                font-weight: bold;
+            }
+        }
+
+        .adm_4 {
+            width: 500px;
+
+            .adm_4_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_4_txt {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .adm_third_line {
+        display: flex;
+        justify-content: space-between;
+        margin: 6.5rem 0;
+
+        .adm_cursus {
+            width: 500px;
+
+            .adm_cursus_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_cursus_txt {
+                font-weight: bold;
+            }
+        }
+
+        .adm_MBA {
+            width: 500px;
+
+            .adm_MBA_ttl {
+                @include adm_part_ttl;
+            }
+
+            .adm_MBA_txt {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .adm_Mana {
+        margin: 6.5rem auto;
+        width: 500px;
+
+        .adm_Mana_ttl {
+            @include adm_part_ttl;
+        }
+
+        .adm_Mana_txt {
+            font-weight: bold;
+        }
+    }
+}
+
 
 .orange{
     color: #EA7820;

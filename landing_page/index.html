@@ -33,33 +33,143 @@
                     <p class="cursus">Jeux vidéo</p>
                 </div>
                 <div class="btns">
-                    <div class="btn btn_brochure1">
-                        <p>Voir la brochure</p>
-                    </div>
-                    <div class="btn btn_brochure2">
-                        <p>Inscription JPO</p>
-                    </div>
+                    <span class="btn btn_brochure2">
+                        <a href="#Form">Inscription JPO</a>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="form_block">
-        <h2>Pour recevoir la brochure c'est ici !👇</h2>
+    <div class="background">
+        <div class="top">
+            <img src="img/top.png" alt="">
+        </div>
+        <!-- <div class="mid">
+            <img src="img/mid.png" alt="">
+        </div>
+        <div class="bot">
+            <img src="img/bottom.png" alt="">
+        </div>  -->
+    </div>
+
+    <section class="form_block" >
+        <h2>Pour recevoir la <span>brochure</span> c'est ici !👇</h2>
         <div class="form_part">
-            <form action="">
-                <input class="input_form" type="text" placeholder="oui">
-                <input class="input_form" type="text" placeholder="chezpo">
-                <br>
-                <input class="input_form" type="text" placeholder="non">
-                <br>
-                <input class="input_form" type="text" placeholder="woula">
-                <input class="input_form" type="text" placeholder="donatien">
-                <br>
-                <input class="input_form" type="text" placeholder="laheja">
-                <input class="input_form" type="text" placeholder="khalass">
-                <input id="send" class="input_form" type="submit" value="Envoyer ma demande">
+
+            <div class="deco">
+                <div class="circle--1"></div>
+                <div class="circle--2"></div>
+            </div>
+
+            <form action="" method="post" class="form" id="Form">
+                <div class="form__groupe--1">
+                    <div class="left">
+                        <input class="input_form" type="text" placeholder="Cursus Choisie ">
+                        <input class="input_form" type="text" placeholder="Formation ">
+                    </div>
+                    <div class="right">
+                        <input class="input_form" type="text" placeholder="Niveau d’entrée">
+                    </div>
+                    
+                </div>
+                
+                <div class="form__groupe--2">
+                    <div class="left">
+                        <input class="input_form" type="text" placeholder="Nom">
+                        <input class="input_form" type="number" placeholder="Télephone">
+                        <input class="input_form" type="date" placeholder="Date">
+                    </div>
+                    
+                    <div class="right">
+                        <input class="input_form" type="text" placeholder="Prenom">
+                        <input class="input_form" type="text" placeholder="Email">
+                    </div>
+                </div>
+                
+                <div class="btn">
+                    <input id="send" class="btn btn__form" type="submit" value="Envoyer ma demande">
+                </div>
             </form>
+        </div>
+    </section>
+
+    <h2 class="admission_h2">Quels profils IIM recheche t’elle ? 🚀</h2>
+    <section class="admission_block">
+        <p class="admission_title">ADMISSIONS</p>
+        <div class="admission_profile">
+            <p class="adm_profile_ttl">Profil</p>
+            <p class="adm_profile_txt">L’IIM recrute ses étudiants sur la passion pour le digital et l’envie de réussir
+                dans ce secteur.
+                Tous les bacs français et étrangers, tous les profils académiques peuvent trouver leur place dans la
+                formation.</p>
+        </div>
+        <div class="adm_first_line">
+            <div class="adm_1">
+                <p class="adm_1_ttl">+ Année 1</p>
+                <p class="adm_1_txt">Baccalauréat (toutes spécialités)
+                    Le choix de la spécialité NSI, Numérique et Sciences
+                    Informatiques, du Baccalauréat général est recommandé
+                    et sera un plus lors de l’étude du dossier de candidature.
+                    Sélection sur dossier et entretien.
+                </p>
+            </div>
+            <div class="adm_2">
+                <p class="adm_2_ttl"> + Année 2 ou Année 3</p>
+                <p class="adm_2_txt">Bac+2 (DUT, BTS, titre niveau III en web, communication,
+                    multimédia, design, informatique…) : admission
+                    selon les compétences (gestion de projet, techniques
+                    ou artistiques) et selon le projet professionnel.
+                    Sélection sur dossier et entretien.
+                </p>
+            </div>
+        </div>
+        <div class="adm_second_line">
+            <div class="adm_restart">
+                <p class="adm_restart_ttl">+ Programme ReStart</p>
+                <p class="adm_restart_txt">Rentrée décalée en première année (février 2022)
+                    pour les étudiants ayant démarré une première année
+                    d’enseignement supérieur.
+                    Sélection sur dossier et entretien.
+                </p>
+            </div>
+            <div class="adm_4">
+                <p class="adm_4_ttl">+ Année 4 ou Année 5</p>
+                <p class="adm_4_txt">Bac+3 (bachelor, licence, titre niveau II en web,
+                    communication, multimédia, design, management,
+                    informatique…). Les compétences techniques ou
+                    créatives sont des prérequis pour intégrer les mastères.
+                    Bon niveau d’anglais. Sélection sur dossier et entretien.
+                </p>
+            </div>
+        </div>
+        <div class="adm_third_line">
+            <div class="adm_cursus">
+                <p class="adm_cursus_ttl">+ Bi-cursus EMLV/IIM Digital Marketing</p>
+                <p class="adm_cursus_txt">and Data Analytics
+                    Titulaire d’un diplôme Bac+3/4 dans les domaines
+                    du management ou de la communication.
+                    Bon niveau d’anglais. Sélection sur dossier et entretien.
+                </p>
+            </div>
+            <div class="adm_MBA">
+                <p class="adm_MBA_ttl">+ MBA Video Game Management</p>
+                <p class="adm_MBA_txt">Titulaire d’un diplôme bac+4
+                    quelle que soit la spécialité.
+                    Le candidat doit posséder un niveau d’anglais
+                    satisfaisant pour suivre les cours en anglais.
+                    LE MBA est également accessible dans le cadre
+                    de la formation professionnelle continue.
+                </p>
+            </div>
+        </div>
+        <div class="adm_Mana">
+            <p class="adm_Mana_ttl">+ Bi-cursus ESILV/IIM Management</p>
+            <p class="adm_Mana_txt">de la Transformation Digitale
+                Titulaire d’un diplôme Bac+3 en commerce,
+                sciences, web et multimédia, informatique.
+                Sélection sur dossier et entretien.
+            </p>
         </div>
     </section>
 
