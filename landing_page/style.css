@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  background-image: url("./img/pole.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.main header {
+  width: 100%;
+  height: 70px;
+  background: black;
+  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+.main header .container {
+  width: 100%;
+  height: 100%;
+  padding: 20px 55px;
+}
+.main header .container img {
+  width: 32px;
+}
+.main .pole .presentation {
+  width: 683px;
+  height: 643px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2rem 4rem;
+  margin: 30px 130px;
+}
+.main .pole .presentation .head {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+  margin-bottom: 5rem;
+}
+.main .pole .presentation .head h1 {
+  font-size: 2rem;
+  color: #ED4502;
+  font-style: italic;
+  font-weight: bold;
+}
+.main .pole .presentation .cursus_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 5rem;
+}
+.main .pole .presentation .cursus_block p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ED4502;
+}
+.main .pole .presentation .btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4.5rem;
+}
+.main .pole .presentation .btns .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  left: 97px;
+  top: 686px;
+  font-style: italic;
+  font-weight: bold;
+  background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+  border-radius: 10px;
+}
+.main .pole .presentation .btns .btn a {
+  color: #fff;
+}
+
+.form_block {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_block h2 {
+  margin: 0 0 2rem 0;
+}
+.form_block .form_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  height: 800px;
+  background-color: rgba(201, 201, 201, 0.64);
+}
+.form_block .form_part form {
+  height: 600px;
+  width: 800px;
+}
+
+.admission_h2 {
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.admission_block {
+  padding: 55px 130px;
+  height: 1444px;
+  background-color: rgba(229, 223, 223, 0.6);
+}
+.admission_block .admission_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #EA7820;
+}
+.admission_block .admission_profile {
+  width: 700px;
+}
+.admission_block .admission_profile .adm_profile_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .admission_profile .adm_profile_txt {
+  font-weight: bold;
+}
+.admission_block .adm_first_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.5rem 0 3rem 0;
+}
+.admission_block .adm_first_line .adm_1 {
+  width: 500px;
+}
+.admission_block .adm_first_line .adm_1 .adm_1_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_first_line .adm_1 .adm_1_txt {
+  font-weight: bold;
+}
+.admission_block .adm_first_line .adm_2 {
+  width: 500px;
+}
+.admission_block .adm_first_line .adm_2 .adm_2_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_first_line .adm_2 .adm_2_txt {
+  font-weight: bold;
+}
+.admission_block .adm_second_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.admission_block .adm_second_line .adm_restart {
+  width: 500px;
+}
+.admission_block .adm_second_line .adm_restart .adm_restart_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_second_line .adm_restart .adm_restart_txt {
+  font-weight: bold;
+}
+.admission_block .adm_second_line .adm_4 {
+  width: 500px;
+}
+.admission_block .adm_second_line .adm_4 .adm_4_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_second_line .adm_4 .adm_4_txt {
+  font-weight: bold;
+}
+.admission_block .adm_third_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 6.5rem 0;
+}
+.admission_block .adm_third_line .adm_cursus {
+  width: 500px;
+}
+.admission_block .adm_third_line .adm_cursus .adm_cursus_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_third_line .adm_cursus .adm_cursus_txt {
+  font-weight: bold;
+}
+.admission_block .adm_third_line .adm_MBA {
+  width: 500px;
+}
+.admission_block .adm_third_line .adm_MBA .adm_MBA_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_third_line .adm_MBA .adm_MBA_txt {
+  font-weight: bold;
+}
+.admission_block .adm_Mana {
+  margin: 6.5rem auto;
+  width: 500px;
+}
+.admission_block .adm_Mana .adm_Mana_ttl {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EA7820;
+}
+.admission_block .adm_Mana .adm_Mana_txt {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
