@@ -2,7 +2,6 @@
     height: 100vh;
     background-image: url("./img/pole.svg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
 
     nav {
         display: flex;
@@ -41,13 +40,13 @@
                 color: $org_title;
             }
         }
-        
+
         .cursus_block {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            
+
             p {
                 font-size: 24px;
                 padding: 2rem;
@@ -74,6 +73,29 @@
                     font-weight: bold;
                 }
             }
+        }
+    }
+}
+
+.form_block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        margin: 0 0 2rem 0;
+    }
+
+    .form_part {
+        display: flex;
+        width: 1150px;
+        height: 800px;
+        background-color: rgba(201, 201, 201, 0.64);
+        form {
+            height: 800px;
+            width: 600px;
         }
     }
 }
