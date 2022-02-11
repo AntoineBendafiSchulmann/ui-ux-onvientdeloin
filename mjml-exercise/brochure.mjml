@@ -1,20 +1,57 @@
 <mjml>
 <mj-body>
 
-<mj-section background-url="https://www.presse-citron.net/app/uploads/2018/08/etudiant-crypto.jpg" background-size="cover" background-repeat="no-repeat">
+<mj-section background-url="https://defense-92.fr/wp-content/uploads/2019/06/004_vue-de-l%E2%80%99entr%C3%A9e-de-l%E2%80%99universit%C3%A9.jpeg" background-size="cover" background-repeat="no-repeat">
     <mj-column width="600px">
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Roboto">Bienvenue</mj-text>
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Roboto">[[data:prénom:""]]</mj-text>
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Roboto">Félicitation</mj-text>
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Roboto">[[data:prénom:""]] !</mj-text>
     </mj-column>
 </mj-section>
 
-<mj-section  background-color="#F5FFFA">
-    <mj-column width="600px">
-    <mj-text align="left" font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
-        <mj-text color="#525252"  font-size="20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
+<mj-section background-color="#fafafa">
+    <mj-column width="400px">
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">Merci pour votre participation </mj-text>
+        <mj-text color="#525252">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
         Sed eget nulla elit. Nulla aliquet mollis faucibus.</mj-text>
+        <mj-button background-color="linear-gradient(to right ,#EA7820,#ED4502)" href="#">Planning</mj-button>
     </mj-column>
 </mj-section>
+
+<mj-section background-color="white">
+
+    <mj-column>
+        <mj-image width="200px" src="https://www.devinci.fr/wordpress/wp-content/uploads/2013/07/P%C3%B4le_PULV_plan-acces_paysage_transports_web.jpg"></mj-image>
+    </mj-column>
+
+    <mj-column>
+        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">Plan d'accès</mj-text>
+        <mj-text color="#525252">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
+        <mj-button background-color="linear-gradient(to right ,#EA7820,#ED4502)" href="#">Acceder au plan</mj-button>
+    </mj-column>
+    
+
+</mj-section>
+
+
+<mj-section background-color="#fafafa">
+
+<mj-column width="600px">
+
+<mj-text  align="center" font-size="25px">A très vite !</mj-text>
+<mj-text color="#FF6600" align="center" font-size="20px">[[data:prénom:""]]</mj-text>
+
+
+
+</mj-column>
+
+
+
+
+</mj-section>
+
+
+
+
 
 
 
