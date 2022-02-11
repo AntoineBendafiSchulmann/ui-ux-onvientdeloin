@@ -1,106 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+/* Error: expected "}".
+ *     ,
+ * 129 | }
+ *     |  ^
+ *     '
+ *   scss\layout\index.scss 129:2  @import
+ *   style.scss 5:9                root stylesheet */
 
-a {
-  text-decoration: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 129 \2502  }\d\a     \2502   ^\a     \2575 \a   scss\\layout\\index.scss 129:2  @import\a   style.scss 5:9                root stylesheet';
 }
-
-li {
-  list-style: none;
-}
-
-.pole {
-  height: 100vh;
-  background-image: url("./img/pole.svg");
-  background-repeat: no-repeat;
-}
-.pole nav {
-  display: flex;
-  height: 10vh;
-  background: linear-gradient(black, rgba(0, 0, 0, 0.4));
-  justify-content: flex-start;
-  align-items: center;
-}
-.pole nav img {
-  margin: 3rem;
-  width: 70px;
-  height: 70px;
-}
-.pole .presentation {
-  padding: 2rem 55px;
-  margin: 50px 0 100px 50px;
-  height: 680px;
-  width: 650px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
-}
-.pole .presentation .head {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.pole .presentation .head img {
-  height: 60px;
-  width: 60px;
-}
-.pole .presentation .head h1 {
-  font-weight: bold italic;
-  color: #ED4502;
-}
-.pole .presentation .cursus_block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.pole .presentation .cursus_block p {
-  font-size: 24px;
-  padding: 2rem;
-  font-weight: bold;
-  color: #ED4502;
-}
-.pole .presentation .btns {
-  display: flex;
-  justify-content: space-around;
-}
-.pole .presentation .btns .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 250px;
-  background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-  border-radius: 10px;
-}
-.pole .presentation .btns .btn p {
-  color: #fff;
-  font-weight: bold;
-}
-
-.form_block {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form_block h2 {
-  margin: 0 0 2rem 0;
-}
-.form_block .form_part {
-  display: flex;
-  width: 1150px;
-  height: 800px;
-  background-color: rgba(201, 201, 201, 0.64);
-}
-.form_block .form_part form {
-  height: 800px;
-  width: 600px;
-}
-
-/*# sourceMappingURL=style.css.map */
