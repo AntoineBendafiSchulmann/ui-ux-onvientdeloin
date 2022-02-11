@@ -45,7 +45,8 @@ li {
   width: 1180px;
   height: 794px;
   border-radius: 20px;
-  background-color: rgba(201, 201, 201, 0.64);
+  background: rgba(255, 252, 252, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 .form_block .form_part .deco .circle--1 {
   position: absolute;
