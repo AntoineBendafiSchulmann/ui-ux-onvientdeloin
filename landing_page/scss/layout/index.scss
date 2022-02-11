@@ -112,3 +112,42 @@
         }
     }
 }
+
+.orange{
+    color: #EA7820;
+}
+
+.cursus{
+    h2{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    h3{
+        color: #EA7820;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    .com{
+        display: flex;
+        .img1{
+            text-align: center;
+            img{
+                margin-top: 15%;
+            }
+        }
+        width: 100%;
+        justify-content: space-around;
+        .text1{
+            .stext{
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
+        }
+    }
+    p{
+        font-weight: bold;
+    }
+}

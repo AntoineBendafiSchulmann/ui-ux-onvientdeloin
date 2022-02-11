@@ -3,16 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: 'Poppins', sans-serif; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 .main {
   background-image: url("./img/pole.svg");
@@ -20,96 +17,106 @@ li {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%;
-}
-.main header {
-  width: 100%;
-  height: 70px;
-  background: black;
-  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.4) 100%);
-}
-.main header .container {
-  width: 100%;
-  height: 100%;
-  padding: 20px 55px;
-}
-.main header .container img {
-  width: 32px;
-}
-.main .pole .presentation {
-  width: 683px;
-  height: 643px;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 2rem 4rem;
-  margin: 30px 130px;
-}
-.main .pole .presentation .head {
-  display: flex;
-  align-items: center;
-  gap: 4.5rem;
-  margin-bottom: 5rem;
-}
-.main .pole .presentation .head h1 {
-  font-size: 2rem;
-  color: #ED4502;
-  font-style: italic;
-  font-weight: bold;
-}
-.main .pole .presentation .cursus_block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
-  margin-bottom: 5rem;
-}
-.main .pole .presentation .cursus_block p {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #ED4502;
-}
-.main .pole .presentation .btns {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4.5rem;
-}
-.main .pole .presentation .btns .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 50px;
-  left: 97px;
-  top: 686px;
-  font-style: italic;
-  font-weight: bold;
-  background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
-  color: #fff;
-  border-radius: 10px;
-}
+  width: 100%; }
+  .main header {
+    width: 100%;
+    height: 70px;
+    background: black;
+    background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.4) 100%); }
+    .main header .container {
+      width: 100%;
+      height: 100%;
+      padding: 20px 55px; }
+      .main header .container img {
+        width: 32px; }
+  .main .pole .presentation {
+    width: 683px;
+    height: 643px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2rem 4rem;
+    margin: 30px 130px; }
+    .main .pole .presentation .head {
+      display: flex;
+      align-items: center;
+      gap: 4.5rem;
+      margin-bottom: 5rem; }
+      .main .pole .presentation .head h1 {
+        font-size: 2rem;
+        color: #ED4502;
+        font-style: italic;
+        font-weight: bold; }
+    .main .pole .presentation .cursus_block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 5rem; }
+      .main .pole .presentation .cursus_block p {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #ED4502; }
+    .main .pole .presentation .btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4.5rem; }
+      .main .pole .presentation .btns .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 50px;
+        left: 97px;
+        top: 686px;
+        font-style: italic;
+        font-weight: bold;
+        background: linear-gradient(90.55deg, #EA7820 11.73%, #ED4502 90.78%);
+        color: #fff;
+        border-radius: 10px; }
 
 .form_block {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-.form_block h2 {
-  margin: 0 0 2rem 0;
-}
-.form_block .form_part {
+  align-items: center; }
+  .form_block h2 {
+    margin: 0 0 2rem 0; }
+  .form_block .form_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1150px;
+    height: 800px;
+    background-color: rgba(201, 201, 201, 0.64); }
+    .form_block .form_part form {
+      height: 600px;
+      width: 800px; }
+
+.orange {
+  color: #EA7820; }
+
+.cursus h2 {
+  text-align: center;
+  margin-bottom: 5%; }
+.cursus h3 {
+  color: #EA7820;
+  text-align: center; }
+.cursus h4 {
+  text-align: center; }
+.cursus .com {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1150px;
-  height: 800px;
-  background-color: rgba(201, 201, 201, 0.64);
-}
-.form_block .form_part form {
-  height: 600px;
-  width: 800px;
-}
+  width: 100%;
+  justify-content: space-around; }
+  .cursus .com .img1 {
+    text-align: center; }
+    .cursus .com .img1 img {
+      margin-top: 15%; }
+  .cursus .com .text1 .stext {
+    display: flex;
+    flex-wrap: wrap; }
+.cursus p {
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
