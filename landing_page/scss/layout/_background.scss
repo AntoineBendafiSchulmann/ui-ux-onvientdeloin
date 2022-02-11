@@ -10,7 +10,18 @@
         img{
             width: 100vw;
             height: 1702px;
-            background-size: cover;
+        }
+    }
+
+    .mid{
+        position: absolute;
+        left: 1389;
+        top: 2000px;
+        z-index: -1;
+
+        img{
+            width: 100vw;
+            height: 2785px;
         }
     }
 }
