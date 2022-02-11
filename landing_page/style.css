@@ -3,20 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: 'Poppins', sans-serif; }
 
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 .form_block {
   height: 100%;
@@ -163,120 +159,116 @@ li {
   margin-top: 20px;
   padding: 55px 130px;
   height: 1444px;
-  background-color: rgba(229, 223, 223, 0.6);
-}
-.admission_block .admission_title {
+  background-color: rgba(229, 223, 223, 0.6); }
+  .admission_block .admission_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EA7820; }
+  .admission_block .admission_profile {
+    width: 700px; }
+    .admission_block .admission_profile .adm_profile_ttl {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #EA7820; }
+    .admission_block .admission_profile .adm_profile_txt {
+      font-weight: bold; }
+  .admission_block .adm_first_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.5rem 0 3rem 0; }
+    .admission_block .adm_first_line .adm_1 {
+      width: 500px; }
+      .admission_block .adm_first_line .adm_1 .adm_1_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_first_line .adm_1 .adm_1_txt {
+        font-weight: bold; }
+    .admission_block .adm_first_line .adm_2 {
+      width: 500px; }
+      .admission_block .adm_first_line .adm_2 .adm_2_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_first_line .adm_2 .adm_2_txt {
+        font-weight: bold; }
+  .admission_block .adm_second_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0; }
+    .admission_block .adm_second_line .adm_restart {
+      width: 500px; }
+      .admission_block .adm_second_line .adm_restart .adm_restart_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_second_line .adm_restart .adm_restart_txt {
+        font-weight: bold; }
+    .admission_block .adm_second_line .adm_4 {
+      width: 500px; }
+      .admission_block .adm_second_line .adm_4 .adm_4_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_second_line .adm_4 .adm_4_txt {
+        font-weight: bold; }
+  .admission_block .adm_third_line {
+    display: flex;
+    justify-content: space-between;
+    margin: 6.5rem 0; }
+    .admission_block .adm_third_line .adm_cursus {
+      width: 500px; }
+      .admission_block .adm_third_line .adm_cursus .adm_cursus_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_third_line .adm_cursus .adm_cursus_txt {
+        font-weight: bold; }
+    .admission_block .adm_third_line .adm_MBA {
+      width: 500px; }
+      .admission_block .adm_third_line .adm_MBA .adm_MBA_ttl {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #EA7820; }
+      .admission_block .adm_third_line .adm_MBA .adm_MBA_txt {
+        font-weight: bold; }
+  .admission_block .adm_Mana {
+    margin: 6.5rem auto;
+    width: 500px; }
+    .admission_block .adm_Mana .adm_Mana_ttl {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #EA7820; }
+    .admission_block .adm_Mana .adm_Mana_txt {
+      font-weight: bold; }
+
+.orange {
+  color: #EA7820; }
+
+.cursus h2 {
+  text-align: center;
+  margin-bottom: 5%; }
+.cursus h3 {
+  color: #EA7820;
+  text-align: center; }
+.cursus h4 {
+  text-align: center; }
+.cursus .com {
   display: flex;
-  justify-content: center;
-  margin-bottom: 55px;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #EA7820;
-}
-.admission_block .admission_profile {
-  width: 700px;
-}
-.admission_block .admission_profile .adm_profile_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .admission_profile .adm_profile_txt {
-  font-weight: bold;
-}
-.admission_block .adm_first_line {
-  display: flex;
-  justify-content: space-between;
-  margin: 4.5rem 0 3rem 0;
-}
-.admission_block .adm_first_line .adm_1 {
-  width: 500px;
-}
-.admission_block .adm_first_line .adm_1 .adm_1_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_first_line .adm_1 .adm_1_txt {
-  font-weight: bold;
-}
-.admission_block .adm_first_line .adm_2 {
-  width: 500px;
-}
-.admission_block .adm_first_line .adm_2 .adm_2_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_first_line .adm_2 .adm_2_txt {
-  font-weight: bold;
-}
-.admission_block .adm_second_line {
-  display: flex;
-  justify-content: space-between;
-  margin: 3rem 0;
-}
-.admission_block .adm_second_line .adm_restart {
-  width: 500px;
-}
-.admission_block .adm_second_line .adm_restart .adm_restart_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_second_line .adm_restart .adm_restart_txt {
-  font-weight: bold;
-}
-.admission_block .adm_second_line .adm_4 {
-  width: 500px;
-}
-.admission_block .adm_second_line .adm_4 .adm_4_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_second_line .adm_4 .adm_4_txt {
-  font-weight: bold;
-}
-.admission_block .adm_third_line {
-  display: flex;
-  justify-content: space-between;
-  margin: 6.5rem 0;
-}
-.admission_block .adm_third_line .adm_cursus {
-  width: 500px;
-}
-.admission_block .adm_third_line .adm_cursus .adm_cursus_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_third_line .adm_cursus .adm_cursus_txt {
-  font-weight: bold;
-}
-.admission_block .adm_third_line .adm_MBA {
-  width: 500px;
-}
-.admission_block .adm_third_line .adm_MBA .adm_MBA_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_third_line .adm_MBA .adm_MBA_txt {
-  font-weight: bold;
-}
-.admission_block .adm_Mana {
-  margin: 6.5rem auto;
-  width: 500px;
-}
-.admission_block .adm_Mana .adm_Mana_ttl {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #EA7820;
-}
-.admission_block .adm_Mana .adm_Mana_txt {
-  font-weight: bold;
-}
+  width: 100%;
+  justify-content: space-around; }
+  .cursus .com .img1 {
+    text-align: center; }
+    .cursus .com .img1 img {
+      margin-top: 15%; }
+  .cursus .com .text1 .stext {
+    display: flex;
+    flex-wrap: wrap; }
+.cursus p {
+  font-weight: bold; }
 
 .main {
   background-image: url("./img/pole.svg");
